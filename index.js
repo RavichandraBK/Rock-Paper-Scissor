@@ -29,8 +29,8 @@ function rules() {
 // console.log(nxtBtn)
 // if (nxtBtn.clicked==false) {
 
-    // humanScore.innerText = humScore;
-    // computerScore.innerText = mcScore;
+    humanScore.innerText = humScore;
+    computerScore.innerText = mcScore;
 
 
     function winner(youWin) {
