@@ -233,6 +233,7 @@ body {
     left: 250px;
     top: 30px;
     margin-bottom: 0px;
+    cursor: pointer;
 }
 
 .game-rules li {
