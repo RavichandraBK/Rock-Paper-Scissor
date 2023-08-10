@@ -25,7 +25,9 @@ function rules() {
     console.log("clicked")
 }
 
-if (location.pathname == '/index.html') {
+// let nxtBtn = document.getElementsByClassName("nxt");
+// console.log(nxtBtn)
+// if (nxtBtn.clicked==false) {
 
     humanScore.innerText = humScore;
     computerScore.innerText = mcScore;
@@ -165,18 +167,9 @@ if (location.pathname == '/index.html') {
 
     function winPage() {
         location.href = 'winner.html';
+       
     }
-}
 
-else {
-
-    document.getElementsByClassName("win-btns")[0].children[0].addEventListener('click', rules)
-    document.getElementsByClassName("win-replay")[0].addEventListener('click', () => {
-        location.href = 'index.html';
-        localStorage.setItem('mcScore', '0')
-        localStorage.setItem('humScore', '0')
-    })
-}
 popUp[0].children[0].addEventListener('click', rules)
 
 
